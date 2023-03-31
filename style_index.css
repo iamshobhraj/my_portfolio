@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    color: white;
+    background: #232323;
+    flex: auto;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    min-height: 33.3vh;
+    padding: 100px 10vw;
+}
+
+.orange {
+    background-color: orange;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.black {
+    background-color: black;
+    align-items: center;
+    padding-top: 11rem;
+}
+
+.socials ul{
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+
+}
+
+.white {
+    background-color: white;
+    color: #232323;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+}
+
+.orange .heroine {
+    font-size: 4rem;
+    color: #232323;
+    margin-bottom: 0%;
+    width: fit-content;
+}
+
+
+.orange .gutche {
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.white .bob{
+    display: flex;
+    background-color: #232323;
+    border-radius: 50%;
+    height: 11rem;
+    height: 9rem;
+    align-items: center;
+
+}
+
+.bob p{
+    width: 8rem;
+    color: #FFFFFF;
+    padding-left: 1rem;
+}
+
+.white ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.8rem;
+    background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-right: 9rem;
+}
+
+
+
+.tide1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.tide1 svg {
+    position: relative;
+    display: block;
+    width: calc(116% + 1.3px);
+    height: 239px;
+}
+
+.tide1 .shape-fill {
+    fill: orange;
+}
+
+.tide2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.tide2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 194px;
+}
+
+.tide2 .shape-fill {
+    fill: #FFFFFF;
+}
