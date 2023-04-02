@@ -2,20 +2,20 @@
 
   body {
       display: flex;
-      flex-direction: column;
       height: 100vh;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       font-family: 'Delicious Handrawn';
       background-color: #42378f;
       background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+      padding-right: 20%;
   }
 
   body a{
     align-self: flex-start;
   }
 
-  .daddy {
+ /* .daddy {
       display: flex;
       flex-direction: column;
       height: 80vh;
@@ -23,10 +23,16 @@
       align-items: center;
       background: #232323;
       color: white;
-      border-radius: 30%;
+      border-radius: 77% 23% 70% 30% / 21% 63% 37% 79% ;
       padding: 3rem;
+  }*/
+  .daddy{
+    height: 600px;
+    width: 700px;
+    margin-top: 0%;
+    padding-top: 0%;
+    align-self: center;
   }
-
   .daddy h1 {
       font-size: 3rem;
       margin-top: 0rem;
@@ -34,4 +40,17 @@
 
   .daddy .text {
       font-size: 1.5rem;
+  }
+
+  svg{
+    height: inherit;
+  }
+
+  .big{
+    font-size: 2rem;
+  }
+
+  .small{
+    
+    
   }

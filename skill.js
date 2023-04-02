@@ -1,5 +1,11 @@
-jQuery(document).ready(function() {
-    jQuery('.skillbar').each(function() {
-        jQuery(this).find('.skillbar-bar').animate({ width: jQuery(this).attr('data-percent') }, 3000);
-    });
-});
+window.onload = function() {
+    // Select all progress bars
+    var progressBars = document.querySelectorAll(".progress");
+  
+    // Loop through progress bars and add animate class
+    for (var i = 0; i < progressBars.length; i++) {
+      var progressBar = progressBars[i];
+      var progressBarClass = progressBar.className;
+      progressBar.className = progressBarClass + " animate";
+    }
+  };
