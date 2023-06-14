@@ -107,6 +107,7 @@ button:hover {
 .skeel {
     background-color: white;
     border-color: black;
+    transition-duration: 0.6s;
 }
 
 .skeel:hover {
